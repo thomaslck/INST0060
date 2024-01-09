@@ -29,3 +29,78 @@ Run experiments using `main.py`. This script accepts command-line arguments to s
 
 ### Example Commands
 - Run data preprocessing:
+```
+pip install numpy pandas matplotlib scikit-learn
+```
+```
+Expected Result:
+
+```
+```
+Expected Running Time: 2 minutes
+```
+- Perform cross-validation:
+```
+pip install numpy pandas matplotlib scikit-learn
+```
+```
+Expected Result:
+
+```
+```
+Expected Running Time: 25 minutes
+```
+- Run the Elastic Net model:
+```
+pip install numpy pandas matplotlib scikit-learn
+```
+```
+Expected Result:
+
+```
+```
+Expected Running Time: 25 minutes
+```
+- Run the Linear Regression model:
+```
+pip install numpy pandas matplotlib scikit-learn
+```
+```
+Expected Result:
+
+```
+```
+Expected Running Time: 25 minutes
+```
+- Generate plots:
+```
+pip install numpy pandas matplotlib scikit-learn
+```
+```
+Expected Result:
+
+```
+```
+Expected Running Time: 25 minutes
+```
+- Run all processes:
+```
+pip install numpy pandas matplotlib scikit-learn
+```
+```
+Expected Result:
+
+```
+```
+Expected Running Time: 25 minutes
+```
+
+## Results
+Results will be printed to the console and saved in specified output files. Plots will be displayed and saved as image files.
+
+## Troubleshooting
+Refer to specific error messages and ensure all dependencies are installed for troubleshooting.
+
+## Contact
+For further assistance, contact [Your Contact Information].
+
