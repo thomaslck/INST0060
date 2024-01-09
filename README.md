@@ -33,7 +33,12 @@ python main.py gait.xlsx --run_preprocessing
 ```
 ```
 Expected Result:
-
+Running data preprocessing...
+The shape of set of feature 1 is (84600, 126)
+The shape of set of feature 2 is (84600, 175)
+The shape of set of feature 3 is (84600, 105)
+The shape of target y-value is (84600,)
+Data Preprocessing completed.
 ```
 ```
 Expected Running Time: 2 minutes
