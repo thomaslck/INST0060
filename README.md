@@ -1,7 +1,7 @@
 # Project Title
 
 ## Introduction
-This project includes a series of Python scripts for data preprocessing, model training, evaluation, and visualization, focusing on Elastic Net and Linear Regression models.
+This project includes a series of Python scripts for data preprocessing, cross-validation, model training, evaluation, and visualization, focusing on Elastic Net and Linear Regression models.
 
 ## Installation
 ### Prerequisites
