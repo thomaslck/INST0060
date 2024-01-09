@@ -30,7 +30,7 @@ Run experiments using `main.py`. This script accepts command-line arguments to s
 ### Example Commands
 - Run data preprocessing:
 ```
-pip install numpy pandas matplotlib scikit-learn
+python main.py gait.xlsx --run_preprocessing
 ```
 ```
 Expected Result:
@@ -41,7 +41,7 @@ Expected Running Time: 2 minutes
 ```
 - Perform cross-validation:
 ```
-pip install numpy pandas matplotlib scikit-learn
+python main.py gait.xlsx --run_cross_validation
 ```
 ```
 Expected Result:
@@ -52,7 +52,7 @@ Expected Running Time: 25 minutes
 ```
 - Run the Elastic Net model:
 ```
-pip install numpy pandas matplotlib scikit-learn
+python main.py gait.xlsx --run_elastic_net
 ```
 ```
 Expected Result:
@@ -63,7 +63,7 @@ Expected Running Time: 25 minutes
 ```
 - Run the Linear Regression model:
 ```
-pip install numpy pandas matplotlib scikit-learn
+python main.py gait.xlsx --run_linear_regression
 ```
 ```
 Expected Result:
@@ -74,7 +74,7 @@ Expected Running Time: 25 minutes
 ```
 - Generate plots:
 ```
-pip install numpy pandas matplotlib scikit-learn
+python main.py gait.xlsx --run_plot
 ```
 ```
 Expected Result:
@@ -85,7 +85,7 @@ Expected Running Time: 25 minutes
 ```
 - Run all processes:
 ```
-pip install numpy pandas matplotlib scikit-learn
+python main.py gait.xlsx --run_all
 ```
 ```
 Expected Result:
