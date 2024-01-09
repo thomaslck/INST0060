@@ -14,15 +14,14 @@ Install the required libraries using:
 pip install numpy pandas matplotlib scikit-learn
 ```
 
-
 ## File Descriptions
-- `data_preprocessing.py`: Functions for data preprocessing, including standardization.
-- `cross_validation.py`: Custom cross-validation functionality.
-- `elastic_net_model.py`: Elastic Net regression model implementation.
-- `linear_regression_model.py`: Linear Regression model implementation.
-- `plotting.py`: Functions for plotting model results.
-- `consolidated.py`: Integrates multiple functionalities for a unified workflow.
-- `main.py`: Main runner script using command-line arguments for experiment execution.
+- **`data_preprocessing.py`:** Functions for data preprocessing, including standardization.
+- **`cross_validation.py`:** Custom cross-validation functionality.
+- **`elastic_net_model.py`:** Elastic Net regression model implementation.
+- **`linear_regression_model.py`:** Linear Regression model implementation.
+- **`plotting.py`:** Functions for plotting model results.
+- **`consolidated.py`:** Integrates multiple functionalities for a unified workflow.
+- **`main.py`:** Main runner script using command-line arguments for experiment execution.
 
 ## Usage
 Run experiments using `main.py`. This script accepts command-line arguments to specify the data file and the desired operations.
