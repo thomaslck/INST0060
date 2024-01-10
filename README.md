@@ -101,7 +101,54 @@ python main.py gait.xlsx --run_elastic_net
 ```
 ```
 Expected Result:
+Running Elastic Net model...
+The shape of set of feature 1 is (84600, 126)
+The shape of set of feature 2 is (84600, 175)
+The shape of set of feature 3 is (84600, 105)
+The shape of target y-value is (84600,)
+Data Preprocessing completed.
 
+Running Elastic Net Model with Set of Feature 1
+alpha=0.1, l1_ratio=0.1, Mean Squared Error: 194.4926432328797
+alpha=0.1, l1_ratio=0.2, Mean Squared Error: 194.47519405163897
+alpha=0.2, l1_ratio=0.1, Mean Squared Error: 194.46202596727602
+alpha=0.2, l1_ratio=0.2, Mean Squared Error: 194.4345881939427
+Best Parameters - alpha: 0.2, l1_ratio: 0.2, Best Mean Squared Error: 194.4345881939427
+
+Running Elastic Net Model with Set of Feature 2
+alpha=0.1, l1_ratio=0.1, Mean Squared Error: 2.534594500212677
+alpha=0.1, l1_ratio=0.2, Mean Squared Error: 2.41487034279863
+alpha=0.2, l1_ratio=0.1, Mean Squared Error: 3.9819830180544096
+alpha=0.2, l1_ratio=0.2, Mean Squared Error: 3.8025567938678115
+Best Parameters - alpha: 0.1, l1_ratio: 0.2, Best Mean Squared Error: 2.41487034279863
+
+Running Elastic Net Model with Set of Feature 3
+alpha=0.1, l1_ratio=0.1, Mean Squared Error: 245.40912066846425
+alpha=0.1, l1_ratio=0.2, Mean Squared Error: 245.38882770399792
+alpha=0.2, l1_ratio=0.1, Mean Squared Error: 245.37902493803813
+alpha=0.2, l1_ratio=0.2, Mean Squared Error: 245.3438605317951
+Best Parameters - alpha: 0.2, l1_ratio: 0.2, Best Mean Squared Error: 245.3438605317951
+
+Running Linear Regression Model with Set of Feature 1
+fit_intercept=True, Mean Squared Error: 194.9419217962485
+fit_intercept=False, Mean Squared Error: 360.94692188717215
+Best fit_intercept: True, Best Mean Squared Error: 194.9419217962485
+
+Running Linear Regression Model with Set of Feature 2
+fit_intercept=True, Mean Squared Error: 4.410769022092561e-06
+fit_intercept=False, Mean Squared Error: 150.84811364522815
+Best fit_intercept: True, Best Mean Squared Error: 4.410769022092561e-06
+
+Running Linear Regression Model with Set of Feature 3
+fit_intercept=True, Mean Squared Error: 245.73581860077735
+fit_intercept=False, Mean Squared Error: 1580.558691740434
+Best fit_intercept: True, Best Mean Squared Error: 245.73581860077735
+
+The MSE of Elastic Net Model with Set of Feature 1: 215.6777147776531
+The MSE of Elastic Net Model with Set of Feature 2: 2.4868041259874225
+The MSE of Elastic Net Model with Set of Feature 3: 284.79446086692275
+
+Elastic Net Model Completed
 ```
 ```
 Expected Running Time: 25 minutes
